@@ -13,5 +13,5 @@
 
 Console.WriteLine("Greetings!");
 
-if(_easyProblemsRef.ProblemNumber997.TestCases.ExcuteSolution())
+if(_easyProblemsRef.ProblemNumber2210.TestCases.ExcuteSolution())
     Console.WriteLine("Congrats! Your algorithm works perfectly!"); 

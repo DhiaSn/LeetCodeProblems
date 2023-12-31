@@ -4,7 +4,6 @@
     {
         public static bool ExcuteSolution()
         {
-            /*
             int outPut1 = Solution.FindJudge(2, [[1, 2]]);
             if (outPut1 != 2)
             {
@@ -60,9 +59,8 @@
                 Console.WriteLine($"[Problem N389] --> OutPut = {outPut7}");
                 return false;
             }
-            */
 
-            int outPut8 = Solution.FindJudge1(3, [[1, 2], [2, 3]]);
+            int outPut8 = Solution.FindJudge(3, [[1, 2], [2, 3]]);
             if (outPut8 != -1)
             {
                 Console.WriteLine("[Problem N389] --> Test Case 8 didn't work correctly!");
