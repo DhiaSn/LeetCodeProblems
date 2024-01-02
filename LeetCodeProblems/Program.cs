@@ -13,19 +13,5 @@
 
 Console.WriteLine("Greetings!");
 
-if(_easyProblemsRef.ProblemNumber119.TestCases.ExcuteSolution())
+if(_easyProblemsRef.ProblemNumber2937.TestCases.ExcuteSolution())
     Console.WriteLine("Congrats! Your algorithm works perfectly!");
-
-static void PrintPascalTriangle(int rows)
-{
-    int i = rows; 
-
-    int number = 1;
-    for (int j = 0; j <= i; j++)
-    {
-        Console.Write("   "); // Adjust spacing for readability
-        Console.Write("{0,3}", number);
-        number = number * (i - j) / (j + 1);
-    }
-    Console.WriteLine();
-}
