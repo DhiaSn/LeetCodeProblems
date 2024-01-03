@@ -19,7 +19,7 @@
                     result += $"{keyValuePairs[letter]}";
                 }
                 resultList[i] = result;
-            }
+            }   
  
             return resultList.Distinct().Count();
         }
