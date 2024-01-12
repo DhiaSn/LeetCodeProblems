@@ -10,7 +10,6 @@ namespace LeetCodeProblems.Problems.Easy.ProblemNumber405
     {
         public static bool ExcuteSolution()
         {
-            /*
             string outPut1 = Solution.ToHex(26);
             if (outPut1 != "1a")
             {
@@ -73,7 +72,6 @@ namespace LeetCodeProblems.Problems.Easy.ProblemNumber405
                 Console.WriteLine($"[Problem N389] --> OutPut = {outPut8}");
                 return false;
             }
-            */
 
             string outPut9 = Solution.ToHex(-2147483648);
             if (outPut9 != "80000000")
